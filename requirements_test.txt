@@ -1,4 +1,5 @@
--e git+https://github.com/TOMToolkit/tom_base.git#egg=tomtoolkit
 astropy==3.2.1
+pyparsing
+-e git+https://github.com/TOMToolkit/tom_base.git#egg=tomtoolkit
 requests_oauthlib
 python-magic
