@@ -1,6 +1,3 @@
-dataclasses
-django
-numpy==1.15.2
 -e git+https://github.com/TOMToolkit/tom_base.git#egg=tomtoolkit
 gunicorn
 django-storages
