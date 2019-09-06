@@ -3,5 +3,6 @@ django
 numpy==1.15.2
 django-heroku
 django-storages
+django-extensions
 boto3
 gunicorn
