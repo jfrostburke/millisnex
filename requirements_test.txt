@@ -1,7 +1,4 @@
 -e git+https://github.com/TOMToolkit/tom_base.git#egg=tomtoolkit
-gunicorn
-django-storages
-boto3
 astropy==3.2.1
 requests_oauthlib
 python-magic

@@ -2,3 +2,6 @@ dataclasses
 django
 numpy==1.15.2
 django-heroku
+django-storages
+boto3
+gunicorn
