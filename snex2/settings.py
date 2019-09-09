@@ -259,7 +259,7 @@ AUTH_STRATEGY = 'READ_ONLY'
 
 # URLs that should be allowed access even with AUTH_STRATEGY = LOCKED
 # for example: OPEN_URLS = ['/', '/about']
-OPEN_URLS = []
+OPEN_URLS = ['/']
 
 HOOKS = {
     'target_post_save': 'custom_code.hooks.target_post_save',
