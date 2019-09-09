@@ -255,11 +255,11 @@ EXTRA_FIELDS = [
 
 # Authentication strategy can either be LOCKED (required login for all views)
 # or READ_ONLY (read only access to views)
-AUTH_STRATEGY = 'LOCKED'
+AUTH_STRATEGY = 'READ_ONLY'
 
 # URLs that should be allowed access even with AUTH_STRATEGY = LOCKED
 # for example: OPEN_URLS = ['/', '/about']
-OPEN_URLS = ['/snex2/tnstargets/']
+OPEN_URLS = []
 
 HOOKS = {
     'target_post_save': 'custom_code.hooks.target_post_save',
