@@ -1,8 +1,10 @@
 dataclasses
 django
-numpy==1.15.2
+tomtoolkit
+gunicorn
 django-heroku
 django-storages
-django-extensions
 boto3
-gunicorn
+astropy==3.2.1
+requests_oauthlib
+python-magic
