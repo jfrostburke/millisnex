@@ -375,7 +375,9 @@ class LCOObservationForm(GenericObservationForm):
 
 class LCOFacility(GenericObservationFacility):
     name = 'LCO'
-    form = LCOObservationForm
+
+    def get_form(self):
+        return LCOObservationForm
 
     def submit_observation(self, observation_payload):
         response = make_request(
